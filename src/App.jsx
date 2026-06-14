@@ -36,7 +36,7 @@ function App() {
 
       if (data.Response === "False") {
         setError("Nenhum filme encontrado.");
-        setMovies([]);mao
+        setMovies([]);
         return;
       }
       setMovies(data.Search);
